@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+(% block title %)
+<title>Home</title>
+(% endblock%)
+
+
+{% block content %}
+
+{% for item in list %}
+<p> {{ item }}</p>
+(% endfor %)
+
+
+
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet posuere consectetur.
+                Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit. In id tellus nec libero vehicula convallis.
+                Quisque eget
+                mauris eleifend, pulvinar diam vitae, sagittis orci. In hac habitasse platea dictumst. Integer
+                efficitur sem
+                n iaculis nunc sed. Nulla aliquet porttitor lacus
+                luctus
+                accumsan tortor. Sollicitudin tempor id eu nisl nunc. Lobortis feugiat vivamus at augue eget. Id
+                consectet mauris eleifend, pulvinar diam vitae, sagittis orci. In hac habitasse platea dictumst. Integer
+                efficitur sem
+                vitae dolor sodales iaculis. Integer id enim ut felis varius ornare. Vestibulum sit amet vulputate
+                lectus, vitae.
+                Nunc mattis enim ut tellus e</p>
+</div>
+
+            {% endblock %}
